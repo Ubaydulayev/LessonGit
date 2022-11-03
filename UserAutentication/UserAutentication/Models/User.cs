@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 
 namespace UserAutentication.Models;
-//[Keyless]
 public class User
 {
     public int Id { get; set; }

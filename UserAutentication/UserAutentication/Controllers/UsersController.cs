@@ -21,7 +21,7 @@ public class UsersController : ControllerBase
     }
 
     [HttpGet]
-    //[TypeFilter(typeof(AuthFilterAttribute))]
+    [TypeFilter(typeof(AuthFilterAttribute))]
     public IActionResult GetMe()
     {
         var claims = new List<Claim>() { new Claim(ClaimTypes.Name, "User1"),
@@ -30,7 +30,7 @@ public class UsersController : ControllerBase
         var claim = new ClaimsIdentity(claims);
         
         var user = new ClaimsPrincipal(claim);
-        return Ok();
+        return Ok(claim.Name);
     }
     [HttpPost]
     public IActionResult UserRegister(User user)
@@ -44,7 +44,7 @@ public class UsersController : ControllerBase
     [TypeFilter(typeof(AuthFilterAttribute))]
     public IActionResult GetData()
     {
-        return Ok("data");
+        return Ok(_store.Users.Values);
     }
     [HttpGet("public")]
     public IActionResult GetPublicData(int n, int k)

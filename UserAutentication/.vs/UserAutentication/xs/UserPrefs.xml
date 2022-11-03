@@ -1,14 +1,11 @@
 ﻿<Properties StartupConfiguration="{46FBB94A-1C6D-4FA8-8149-BA3E7327BCFC}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="UserAutentication/Controllers/UsersController.cs">
     <Files>
-      <File FileName="UserAutentication/Models/User.cs" Line="5" Column="3" />
-      <File FileName="UserAutentication/Controllers/UsersController.cs" Line="52" Column="22" />
-      <File FileName="UserAutentication/Context/UserDbContext.cs" Line="22" Column="32" />
-      <File FileName="UserAutentication/Filters/AuthFilterAttribute.cs" Line="5" Column="32" />
+      <File FileName="UserAutentication/Controllers/UsersController.cs" Line="47" Column="38" />
+      <File FileName="UserAutentication/Models/User.cs" Line="4" Column="36" />
+      <File FileName="UserAutentication/Service/UsersStore.cs" Line="1" Column="1" />
+      <File FileName="UserAutentication/Filters/AuthFilterAttribute.cs" Line="1" Column="1" />
+      <File FileName="UserAutentication/Context/UserDbContext.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,6 +15,7 @@
               <Node name="Context" expanded="True" />
               <Node name="Controllers" expanded="True" />
               <Node name="Filters" expanded="True" />
+              <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Service" expanded="True" />
             </Node>
@@ -29,7 +27,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.UserAutentication PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.UserAutentication PreferredExecutionTarget="/Applications/Safari.app" />
 </Properties>
