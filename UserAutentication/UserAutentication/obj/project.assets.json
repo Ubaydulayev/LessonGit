@@ -8509,11 +8509,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dostonbekubaydullayev/Desktop/IlmHub/Lesson/UserAutentication/UserAutentication/UserAutentication.csproj",
+      "projectUniqueName": "/Users/dostonbekubaydullayev/Desktop/IlmHub/lessonGit/UserAutentication/UserAutentication/UserAutentication.csproj",
       "projectName": "UserAutentication",
-      "projectPath": "/Users/dostonbekubaydullayev/Desktop/IlmHub/Lesson/UserAutentication/UserAutentication/UserAutentication.csproj",
+      "projectPath": "/Users/dostonbekubaydullayev/Desktop/IlmHub/lessonGit/UserAutentication/UserAutentication/UserAutentication.csproj",
       "packagesPath": "/Users/dostonbekubaydullayev/.nuget/packages/",
-      "outputPath": "/Users/dostonbekubaydullayev/Desktop/IlmHub/Lesson/UserAutentication/UserAutentication/obj/",
+      "outputPath": "/Users/dostonbekubaydullayev/Desktop/IlmHub/lessonGit/UserAutentication/UserAutentication/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dostonbekubaydullayev/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MOUOPf3ESG0Im75Gl9f13r0Ee1x+i1IK+DDQL27VlwtCwYPvCcWLoIX/DkxL8o8o5o3KJZHstJwNtRwdjXpw7A==",
+  "dgSpecHash": "GPpV7AE5wHOJtjRIaITNeHVnSpa6lUCCCLn/INjvP60hL5y6BNf8lNvY1Z+QGGatBTd1ElPSBCfGqckh1WcNzg==",
   "success": true,
-  "projectFilePath": "/Users/dostonbekubaydullayev/Desktop/IlmHub/Lesson/UserAutentication/UserAutentication/UserAutentication.csproj",
+  "projectFilePath": "/Users/dostonbekubaydullayev/Desktop/IlmHub/lessonGit/UserAutentication/UserAutentication/UserAutentication.csproj",
   "expectedPackageFiles": [
     "/Users/dostonbekubaydullayev/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/dostonbekubaydullayev/.nuget/packages/microsoft.aspnetcore.antiforgery/2.2.0/microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

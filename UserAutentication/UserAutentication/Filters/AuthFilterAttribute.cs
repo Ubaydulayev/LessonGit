@@ -18,16 +18,20 @@ namespace UserAutentication.Filters
         public override void OnActionExecuting(ActionExecutingContext context)
         {
             if (!context.HttpContext.Request.Headers.ContainsKey("Key"))
+            {
                 context.Result = new UnauthorizedResult();
-            return;
+                return;
+            }
+                
 
             var key = context.HttpContext.Request.Headers["Key"];
 
             if (!_usersStore.Users.ContainsKey(key))
             {
                 context.Result = new UnauthorizedResult();
-                //return;
+                return;
             }
+            return;
         }
     }
 }

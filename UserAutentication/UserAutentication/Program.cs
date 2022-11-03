@@ -1,5 +1,6 @@
 ﻿using UserAutentication.Service;
 using UserAutentication.Context;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 

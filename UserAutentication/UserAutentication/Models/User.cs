@@ -1,10 +1,10 @@
 ﻿using System;
-namespace UserAutentication.Models
-{
-    public class User
-    {
-        public string? Username { get; set; }
-        public string? Password { get; set; }
-    }
-}
+using Microsoft.EntityFrameworkCore;
 
+namespace UserAutentication.Models;
+//[Keyless]
+public class User
+{
+    public string? Username { get; set; }
+    public string? Password { get; set; }
+}

@@ -1,17 +1,14 @@
 ﻿<Properties StartupConfiguration="{46FBB94A-1C6D-4FA8-8149-BA3E7327BCFC}|Default">
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="UserAutentication/Controllers/UsersController.cs">
     <Files>
-      <File FileName="UserAutentication/Filters/AuthFilterAttribute.cs" Line="25" Column="1" />
-      <File FileName="UserAutentication/Controllers/UsersController.cs" Line="51" Column="6" />
-      <File FileName="UserAutentication/Models/User.cs" Line="6" Column="29" />
-      <File FileName="UserAutentication/appsettings.json" Line="1" Column="1" />
-      <File FileName="UserAutentication/Program.cs" Line="12" Column="48" />
-      <File FileName="UserAutentication/Service/UsersStore.cs" Line="12" Column="1" />
-      <File FileName="UserAutentication/Context/UserDbContext.cs" Line="17" Column="48" />
+      <File FileName="UserAutentication/Models/User.cs" Line="5" Column="3" />
+      <File FileName="UserAutentication/Controllers/UsersController.cs" Line="52" Column="22" />
+      <File FileName="UserAutentication/Context/UserDbContext.cs" Line="22" Column="32" />
+      <File FileName="UserAutentication/Filters/AuthFilterAttribute.cs" Line="5" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,9 +16,7 @@
           <Node name="UserAutentication" expanded="True">
             <Node name="UserAutentication" expanded="True">
               <Node name="Context" expanded="True" />
-              <Node name="Controllers" expanded="True">
-                <Node name="UsersController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Filters" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Service" expanded="True" />
@@ -34,7 +29,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.UserAutentication PreferredExecutionTarget="/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

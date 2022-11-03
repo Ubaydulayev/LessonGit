@@ -40,4 +40,7 @@
     <Folder Include="Service\" />
     <Folder Include="Context\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+  </ItemGroup>
 </Project>

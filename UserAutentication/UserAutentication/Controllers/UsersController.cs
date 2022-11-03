@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.AspNetCore.Authorization;
-using UserAutentication.Service;
-using System.Threading.Tasks;
-using UserAutentication.Filters;
 using System.Security.Claims;
-using UserAutentication.Models;
 using Microsoft.AspNetCore.Mvc;
 using UserAutentication.Context;
-
+using UserAutentication.Filters;
+using UserAutentication.Models;
+using UserAutentication.Service;
 
 namespace UserAutentication.Controllers;
 [Route("api/[controller]")]
@@ -29,7 +24,12 @@ public class UsersController : ControllerBase
     //[TypeFilter(typeof(AuthFilterAttribute))]
     public IActionResult GetMe()
     {
-        var user = User;
+        var claims = new List<Claim>() { new Claim(ClaimTypes.Name, "User1"),
+        new Claim(ClaimTypes.HomePhone, "90854"), new Claim("Password", "1234")};
+
+        var claim = new ClaimsIdentity(claims);
+        
+        var user = new ClaimsPrincipal(claim);
         return Ok();
     }
     [HttpPost]
@@ -47,8 +47,17 @@ public class UsersController : ControllerBase
         return Ok("data");
     }
     [HttpGet("public")]
-    public IActionResult GetPublicData()
+    public IActionResult GetPublicData(int n, int k)
     {
-        return Ok("Publishes");
+        int count = 6, i;
+        for(i = k; i < n; i++)
+        {
+            int digit = n % 10;
+            if (digit == k)
+                count++;
+            n--;
+        }    
+
+        return Ok(count);
     }
 }
