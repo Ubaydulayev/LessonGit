@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4KQ/IDjUs6jI0f9lU8TYrr24heiH75i3ZHiuBdJK4dLW09uaFKMFa56cC6rtILq6lf8/zl2kW9vbaCuSzcr9kA==",
+  "dgSpecHash": "kIoX4E6C7gULKqot+1CJYp0Y7DS9kKUc+c0JcoTLk1/Yb83ip6SfChV2zwM/iTz6v08ZEpjqfPfUSKe6TpgRVg==",
   "success": true,
   "projectFilePath": "/Users/dostonbekubaydullayev/Desktop/IlmHub/lessonGit/AuthClaims/AuthClaims/AuthClaims.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "/Users/dostonbekubaydullayev/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/Users/dostonbekubaydullayev/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "/Users/dostonbekubaydullayev/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/dostonbekubaydullayev/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/dostonbekubaydullayev/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.6/sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
     "/Users/dostonbekubaydullayev/.nuget/packages/sqlitepclraw.core/2.0.6/sqlitepclraw.core.2.0.6.nupkg.sha512",
     "/Users/dostonbekubaydullayev/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.6/sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",

@@ -1,23 +1,21 @@
 ﻿<Properties StartupConfiguration="{F53B7654-49CA-4F85-BEDE-2389DE8A4DD1}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.AuthClaims PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AuthClaims/Program.cs">
-    <Files>
-      <File FileName="AuthClaims/Handler/AuthHandler.cs" Line="14" Column="33" />
-      <File FileName="AuthClaims/Program.cs" Line="21" Column="1" />
-      <File FileName="AuthClaims/Controllers/AdminsController.cs" Line="16" Column="28" />
-    </Files>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AuthClaims" expanded="True">
             <Node name="AuthClaims" expanded="True">
-              <Node name="Handler" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="UsersController.cs" selected="True" />
+              </Node>
+              <Node name="Filters" expanded="True" />
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -27,4 +25,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

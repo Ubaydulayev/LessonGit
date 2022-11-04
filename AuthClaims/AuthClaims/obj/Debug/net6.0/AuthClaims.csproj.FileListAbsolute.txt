@@ -53,3 +53,5 @@
 /Users/dostonbekubaydullayev/Desktop/IlmHub/lessonGit/AuthClaims/AuthClaims/obj/Debug/net6.0/AuthClaims.pdb
 /Users/dostonbekubaydullayev/Desktop/IlmHub/lessonGit/AuthClaims/AuthClaims/obj/Debug/net6.0/AuthClaims.genruntimeconfig.cache
 /Users/dostonbekubaydullayev/Desktop/IlmHub/lessonGit/AuthClaims/AuthClaims/obj/Debug/net6.0/ref/AuthClaims.dll
+/Users/dostonbekubaydullayev/Desktop/IlmHub/lessonGit/AuthClaims/AuthClaims/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/dostonbekubaydullayev/Desktop/IlmHub/lessonGit/AuthClaims/AuthClaims/bin/Debug/net6.0/file.json
