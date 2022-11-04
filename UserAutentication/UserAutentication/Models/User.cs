@@ -1,7 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
-
-namespace UserAutentication.Models;
+﻿namespace UserAutentication.Models;
 public class User
 {
     public int Id { get; set; }

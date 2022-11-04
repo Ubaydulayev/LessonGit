@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BNWBPVUQahkoD9uUtFEUp7TPTjcFsqpsQMDcKwqOlpA=",
+  "Source": "AuthClaims",
+  "BasePath": "_content/AuthClaims",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
