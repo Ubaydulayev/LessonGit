@@ -1,24 +1,11 @@
 ﻿<Properties StartupConfiguration="{5CBD9F80-B683-400A-90A6-658EAA72443F}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.JWToken PreferredExecutionTarget="/Applications/Safari.app" FirstBuild="True" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="JWToken/Controllers/UsersController.cs">
-    <Files>
-      <File FileName="JWToken/Controllers/UsersController.cs" Line="22" Column="21" />
-      <File FileName="JWToken/Program.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="JWToken" expanded="True">
-            <Node name="JWToken" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="UsersController.cs" selected="True" />
-              </Node>
-            </Node>
+            <Node name="JWToken" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -27,5 +14,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.JWToken PreferredExecutionTarget="/Applications/Safari.app" />
 </Properties>

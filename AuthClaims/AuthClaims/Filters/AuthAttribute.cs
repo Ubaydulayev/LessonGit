@@ -30,7 +30,7 @@ public class AuthAttribute : ActionFilterAttribute
             return;
         }
 
-        var users = _store.Users[key];
+        var users = _store.Users[key];  
 
         if (!Role.Contains(users.Role!))
         {
