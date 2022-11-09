@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{BBAA9655-9D39-4DF2-A188-3EBBD63EEC9B}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Middlewares PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Middlewares/Controllers/ValuesController.cs">
+    <Files>
+      <File FileName="Middlewares/Controllers/ValuesController.cs" Line="17" Column="7" />
+      <File FileName="Middlewares/Exceptions/LanguageNotSupportedException.cs" Line="1" Column="1" />
+      <File FileName="Middlewares/Filters/LanguageFilterAttribute.cs" Line="2" Column="40" />
+      <File FileName="Middlewares/Middlewares/ExceptionHandlerMiddleware.cs" Line="23" Column="1" />
+      <File FileName="Middlewares/Middlewares/LanguageMiddleware.cs" Line="11" Column="1" />
+      <File FileName="Middlewares/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Middlewares/Program.cs" Line="11" Column="41" />
+      <File FileName="Middlewares/RequestCulture.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Middlewares" expanded="True">
+            <Node name="Middlewares" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ValuesController.cs" selected="True" />
+              </Node>
+              <Node name="Exceptions" expanded="True" />
+              <Node name="Filters" expanded="True" />
+              <Node name="Middlewares" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/dostonbekubaydullayev/Desktop/IlmHub/lessonGit/Middlewares/Middlewares/Filters/LanguageFilterAttribute.cs" relfile="Middlewares/Filters/LanguageFilterAttribute.cs" line="8" column="1" />
+      <Breakpoint enabled="false" file="/Users/dostonbekubaydullayev/Desktop/IlmHub/lessonGit/Middlewares/Middlewares/Controllers/ValuesController.cs" relfile="Middlewares/Controllers/ValuesController.cs" line="11" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

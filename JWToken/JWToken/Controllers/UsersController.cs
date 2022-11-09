@@ -21,9 +21,11 @@ namespace JWToken.Controllers;
 public class UsersController : ControllerBase
 {
     private readonly string? _filePath;
+    private readonly string _key;
     public UsersController(IOptions<JsonPathOption> options)
     {
         _filePath = options.Value.JsonPath ?? "file.json";
+        _key = options.Value.Key!;
     }
 
     [HttpGet]
@@ -56,7 +58,7 @@ public class UsersController : ControllerBase
     [AllowAnonymous]
     public IActionResult SignUp(User user)
     {
-        var keyByte = System.Text.Encoding.UTF8.GetBytes("usersfasdfdsvdsfvsdfgsafasfs");
+        var keyByte = System.Text.Encoding.UTF8.GetBytes(_key);
         var securityKey = new SigningCredentials(new SymmetricSecurityKey(keyByte), SecurityAlgorithms.HmacSha256);
         var security = new JwtSecurityToken(
             issuer: "Project", audience: "Room",
@@ -66,7 +68,7 @@ public class UsersController : ControllerBase
                 new Claim(ClaimTypes.MobilePhone, user.Phone!),
                 new Claim(ClaimTypes.Role, user.Role!)
             },
-            expires: DateTime.Now.AddMinutes(1),
+            expires: DateTime.Now.AddMinutes(5),
             signingCredentials: securityKey);
         var token = new JwtSecurityTokenHandler().WriteToken(security);
         var users = ReadUser();

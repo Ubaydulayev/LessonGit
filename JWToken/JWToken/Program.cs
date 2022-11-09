@@ -2,6 +2,7 @@
 using Microsoft.IdentityModel.Tokens;
 using JWToken;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
@@ -9,6 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.Configure<JsonPathOption>(
     builder.Configuration.GetSection(nameof(JsonPathOption)));
+var settings = builder.Configuration.GetSection(nameof(JsonPathOption)).Get<JsonPathOption>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(j =>
@@ -22,7 +24,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateIssuerSigningKey = true,
             ValidateLifetime = true,
             ClockSkew = TimeSpan.Zero,
-            IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("usersfasdfdsvdsfvsdfgsafasfs"))
+            IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(settings.Key!))
         };
     });
 
