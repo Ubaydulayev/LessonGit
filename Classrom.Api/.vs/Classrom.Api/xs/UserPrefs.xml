@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{946FC13D-08BE-486E-B9E4-759DE2C15980}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Classrom.Api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Classrom.Api" expanded="True">
+            <Node name="Classrom.Api" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="Mappers" expanded="True">
+                <Node name="ClassMapper.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

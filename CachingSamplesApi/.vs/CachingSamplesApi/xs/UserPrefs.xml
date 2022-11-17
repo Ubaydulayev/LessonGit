@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{4CC43FED-E54E-416A-BA3E-0E9C2145408B}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CachingSamplesApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CachingSamplesApi/Controllers/ValuesController.cs">
+    <Files>
+      <File FileName="CachingSamplesApi/Controllers/ValuesController.cs" Line="66" Column="15" />
+      <File FileName="CachingSamplesApi/Program.cs" Line="16" Column="140" />
+      <File FileName="CachingSamplesApi/appsettings.json" Line="1" Column="1" />
+      <File FileName="CachingSamplesApi/Service/DatabaseService.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CachingSamplesApi" expanded="True">
+            <Node name="CachingSamplesApi" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Service" expanded="True">
+                <Node name="DatabaseService.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

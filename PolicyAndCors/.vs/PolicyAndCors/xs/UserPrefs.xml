@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{11191730-9BEA-4C28-912D-E1A8A374320C}|Default">
+  <MonoDevelop.Ide.ItemProperties.PolicyAndCorsApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.Front PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.Cors PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PolicyAndCorsApi/Controllers/UsersController.cs">
+    <Files>
+      <File FileName="PolicyAndCorsApi/Migrations/20221114105731_Init.cs" Line="1" Column="1" />
+      <File FileName="PolicyAndCorsApi/Controllers/UsersController.cs" Line="62" Column="2" />
+      <File FileName="PolicyAndCorsApi/Migrations/AppDbContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="PolicyAndCorsApi/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+      <File FileName="PolicyAndCorsApi/Program.cs" Line="34" Column="82" />
+      <File FileName="PolicyAndCorsApi/WeatherForecast.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PolicyAndCors" expanded="True">
+            <Node name="PolicyAndCorsApi" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Policy PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{DDF01B47-A9DB-409A-8F9C-6276A865BF6D}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Mapper PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AvtoMapperAndMapster/Controllers/WeatherForecastController.cs">
+    <Files>
+      <File FileName="AvtoMapperAndMapster/Controllers/WeatherForecastController.cs" Line="66" Column="1" />
+      <File FileName="AvtoMapperAndMapster/Program.cs" Line="15" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mappers" expanded="True">
+            <Node name="AvtoMapperAndMapster" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AvtoMapperAndMapster PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+</Properties>

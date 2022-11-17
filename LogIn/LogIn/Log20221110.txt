@@ -1,0 +1,1 @@
+2022-11-10 22:43:43.099 +05:00 [INF] Now listening on: https://localhost:7298

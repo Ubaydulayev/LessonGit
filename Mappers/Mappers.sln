@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapper", "Mapper\Mapper.csproj", "{DDF01B47-A9DB-409A-8F9C-6276A865BF6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvtoMapperAndMapster", "AvtoMapperAndMapster\AvtoMapperAndMapster.csproj", "{6620CC64-1A0B-46B6-87BC-1792DC481325}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDF01B47-A9DB-409A-8F9C-6276A865BF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF01B47-A9DB-409A-8F9C-6276A865BF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF01B47-A9DB-409A-8F9C-6276A865BF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF01B47-A9DB-409A-8F9C-6276A865BF6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6620CC64-1A0B-46B6-87BC-1792DC481325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6620CC64-1A0B-46B6-87BC-1792DC481325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6620CC64-1A0B-46B6-87BC-1792DC481325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6620CC64-1A0B-46B6-87BC-1792DC481325}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E2212EC-3CAA-4C12-9663-9C94BDCF1096}
+	EndGlobalSection
+EndGlobal

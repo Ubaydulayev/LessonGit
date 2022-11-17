@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<Classroom.Web.Data.User> UserManager
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Classroom</h1>
+</div>
+
+<h1 class="text-center">
+    Users
+</h1>
+
+<table class="table table-striped table-bordered border-primary">
+    <thead>
+        <tr>
+            <th>UserName</th>
+            <th>Email</th>
+            <th>PhoneNumber</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var users = UserManager.Users.Take(20).ToList();
+            foreach (var user in users)
+            {
+                <tr>
+                    <td>@user.UserName</td>
+                    <td>@user.Email</td>
+                    <td>@user.PhoneNumber</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

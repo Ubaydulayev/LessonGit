@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "a2zIQmPKnxDlC6ayQynmvR7kjCWgI7W6hUNp5XZ5ITs=",
+  "Source": "PolicyAndCorsApi",
+  "BasePath": "_content/PolicyAndCorsApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
